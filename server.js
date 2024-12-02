@@ -25,7 +25,7 @@ const allowedOrigins = [
   "https://admin-test-theta.vercel.app",
   "https://admin-test-git-main-bananas-projects-9860d87b.vercel.app/",
   "https://admin-test-jtmtnqk3b-bananas-projects-9860d87b.vercel.app/", 
-  "https://user-test-puce.vercel.app/", 
+  "https://user-test-puce.vercel.app", // For local development
   "http://localhost:5173", // For local development
 ];
 
@@ -59,4 +59,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log("Server started on PORT : " + port + " 🌍 🙌");
 });
-
