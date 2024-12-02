@@ -13,6 +13,11 @@ import orderRouter from "./routes/orderRoute.js";
 // App Config
 const app = express();
 const port = process.env.PORT || 4000;
+const corsOptions = {
+  origin: 'https://admin-test-theta.vercel.app/',
+  credentials: true,
+};
+app.use(cors(corsOptions));
 
 //service connection
 connectDB();
