@@ -23,7 +23,8 @@ connectCloudinary();
 app.use(express.json());
 const allowedOrigins = [
   "https://admin-test-theta.vercel.app",
-  "http://localhost:5175", // For local development
+  "https://admin-test-git-main-bananas-projects-9860d87b.vercel.app/",
+  "https://admin-test-jtmtnqk3b-bananas-projects-9860d87b.vercel.app/", 
   "http://localhost:5176", // For local development
   "http://localhost:5173", // For local development
 ];
