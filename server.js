@@ -25,7 +25,7 @@ const allowedOrigins = [
   "https://admin-test-theta.vercel.app",
   "https://admin-test-git-main-bananas-projects-9860d87b.vercel.app/",
   "https://admin-test-jtmtnqk3b-bananas-projects-9860d87b.vercel.app/", 
-  "http://localhost:5176", // For local development
+  "https://user-test-puce.vercel.app/", 
   "http://localhost:5173", // For local development
 ];
 
