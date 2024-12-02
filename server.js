@@ -13,11 +13,7 @@ import orderRouter from "./routes/orderRoute.js";
 // App Config
 const app = express();
 const port = process.env.PORT || 4000;
-const corsOptions = {
-  origin: 'https://admin-test-bdr5tq4if-bananas-projects-9860d87b.vercel.app/',
-  credentials: true,
-};
-app.use(cors(corsOptions));
+app.use(cors());
 
 //service connection
 connectDB();
