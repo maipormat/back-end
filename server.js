@@ -21,9 +21,10 @@ connectCloudinary();
 // middlewares
 app.use(express.json());
 const allowedOrigins = [
-  "https://artnakkk-frontend-admin.vercel.app",
+  "https://vercel.com/bananas-projects-9860d87b/admin-test",
   "http://localhost:5175", // For local development
   "http://localhost:5176", // For local development
+  "http://localhost:5173", // For local development
 ];
 
 // Configure CORS
